@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcription Audio OpenAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Transcription Audio avec OpenAI</h1>
+    <form id="transcription-form">
+        <label for="api-key">Clé API:</label>
+        <input type="password" id="api-key" required>
+        <br>
+        <label for="audio-file">Fichier audio:</label>
+        <input type="file" id="audio-file" accept="audio/*" required>
+        <br>
+		
+		<label for="output-format">Format de sortie:</label>
+<select id="output-format">
+    <option value="json">JSON</option>
+    <option value="text" selected>Texte</option>
+    <option value="srt">SRT</option>
+    <option value="verbose_json">JSON Verbose</option>
+    <option value="vtt">VTT</option>
+</select>
+<br>
+<br>
+
+        <button type="submit">Transcrire</button>
+    </form>
+    <h2>Résultat de la transcription:</h2>
+	<button id="copy-to-clipboard" type="button" disabled>Copier</button>
+
+    <pre id="transcription-result"></pre>
+    <script src="script.js"></script>
+</body>
+</html>
