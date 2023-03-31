@@ -5,6 +5,8 @@ Transformer un audio en texte avec l'API de Whisper d'openAI et cette interface 
 
 Lance le index.html et enjoy.
 
+Vous pouvez le tester directement ici : https://devenirentrepreneurweb.fr/tools/whisper/
+
 ![Screenshot](screenshot.jpg)
 
 
