@@ -5,7 +5,7 @@ Transformer un audio en texte avec l'API de Whisper d'openAI et cette interface 
 
 Lance le index.html et enjoy.
 
-Vous pouvez le tester directement ici : https://devenirentrepreneurweb.fr/tools/whisper/
+Vous pouvez le tester directement ici : https://devenirentrepreneurweb.fr/blog/whisper-openai-en-ligne.html 
 
 ![Screenshot](screenshot.jpg)
 
@@ -13,7 +13,5 @@ Vous pouvez le tester directement ici : https://devenirentrepreneurweb.fr/tools/
 Mes liens :
 
 Chaine youtube : https://www.youtube.com/channel/UCNFED93Cb1U6-QnrVXZlBkw
-
-Forum : https://forumentrepreneurweb.fr/
 
 Formation : https://devenirentrepreneurweb.fr/formations/
